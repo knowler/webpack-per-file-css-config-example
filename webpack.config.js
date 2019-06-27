@@ -6,14 +6,8 @@ module.exports = {
   mode: 'production',
   context: path.resolve(__dirname, 'src'),
   entry: {
-    home: [
-      './home.js',
-      './home.css',
-    ],
-    about: [
-      './about.js',
-      './about.css',
-    ],
+    home: './home.css',
+    about: './about.css',
   },
   output: {
     publicPath: path.resolve(__dirname, 'dist'),
